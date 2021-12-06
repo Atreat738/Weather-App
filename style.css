@@ -1,14 +1,59 @@
-html {
+html, body {
     box-sizing: border-box;
     margin: 0;
     height: 100%;
 }
-
 body {
+    background-size: 100% 100%;
+}
+
+#container {   
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#InputForm {
+    width: 100%;
+    height: 15%;
+    display: flex;
     justify-content: center;
 }
+
+input, button {
+    font-size: 1.25em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#output {
+    width: 100%;
+    margin-left: 12.5%;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.animation {
+    animation: moveIn 1.8s;
+}
+
+@keyframes moveIn {
+    0% {transform: translateY(150px)}
+    100% {transform: translateY(0)}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
 

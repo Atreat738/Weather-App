@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
     <title>Weather App</title>
 </head>
 
 <body>
-   
-        <h1>Weather App</h1>
+   <div id="container">
+       <header><h1>Weather App</h1></header>
+        
         <form id="InputForm">
             <label for="cityInputBox" name="cityInputBox">
                 <input type="text" placeholder="City name" id="cityInputBox">
-                <button id="getDataBtn">Get Data</button>
+                <button id="getDataBtn">Search</button>
             </label>
         </form>
 
         <div id="output"></div>
-    
+    </div>
         <script src="app.js"></script>
 </body>
 </html>
