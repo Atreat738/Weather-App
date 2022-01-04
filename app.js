@@ -51,7 +51,7 @@ function getInputData() {
                 document.body.style.backgroundImage = 'url(images/rainy.jpg)';
                 document.body.style.color = 'white';   
             } else if(weatherDescription == 'sunny' || weatherDescription == 'clear sky') {
-                document.body.style.backgroundImage = 'url(images/sunnybg.jpg)';
+                document.body.style.backgroundImage = 'url(images/sunnybg2.jpg)';
             } else if(weatherDescription.includes('cloud')) {
                 document.body.style.backgroundImage = 'url(images/cloudybg.jpg)';
             }
